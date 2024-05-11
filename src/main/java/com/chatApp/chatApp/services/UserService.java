@@ -14,7 +14,6 @@ public class UserService {
 
     @Autowired
     private UserRepository userRepository;
-
     
     public void saveUser(User user){
         user.setStatus(Status.ONLINE);
