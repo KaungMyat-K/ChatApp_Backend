@@ -12,7 +12,6 @@ import org.springframework.stereotype.Controller;
 import com.chatApp.chatApp.model.User;
 import com.chatApp.chatApp.services.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 @Controller
